@@ -1,0 +1,44 @@
+html { scroll-behavior: smooth; }
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+.border {
+  display: none;
+}
+
+  .text {
+    animation: fadeIn 15s;
+    -webkit-animation: fadeIn 15s;
+    -moz-animation: fadeIn 15s;
+    -o-animation: fadeIn 15s;
+    -ms-animation: fadeIn 15s;
+    text-align: center!important;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+}
