@@ -353,7 +353,7 @@ nav.navbar {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 75vh;
   background: url("https://storage.googleapis.com/exp002/BrightonBeach.gif");
   background-size: cover;
   position: relative;
@@ -361,7 +361,7 @@ nav.navbar {
 #hero:before {
   content: "";
   background: rgba(0, 0, 0, 0.65);
-  position: absolute;
+  position: relative;
   bottom: 0;
   top: 0;
   left: 0;
@@ -442,7 +442,7 @@ nav.navbar {
     #hero {
       
       object-fit: fill;
-      background-position-x: -300px;
+    /*  background-position-x: -300px; */
       background-repeat: no-repeat;
       
     }
